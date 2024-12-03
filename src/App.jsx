@@ -1,4 +1,5 @@
 import charData from "./assets/cluedo-note.json";
+import PlayerSection from "./components/PlayerSection";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-
+      <PlayerSection tableSection={cluedoElements.players} />
     </>
   );
 }
