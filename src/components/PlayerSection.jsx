@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
 
-function PlayerSection({ tableSection }) {
+function PlayerSection({ tableSection, title }) {
   return (
-    <section>
-      <h2>Jugadores</h2>
+    <section className="flex justify-between gap-2">
+      <h2>{title}</h2>
       {
         tableSection.map((name, index) => {
           return (
             <div key={index}>
-              <input type="text" />
+              <input className="size-7 rounded-sm text-black" type="text" />
             </div>
           );
         })
@@ -18,7 +18,8 @@ function PlayerSection({ tableSection }) {
 }
 
 PlayerSection.propTypes = {
-  tableSection: PropTypes.array.isRequired
+  tableSection: PropTypes.array.isRequired,
+  title: PropTypes.string
 };
 
 export default PlayerSection;
