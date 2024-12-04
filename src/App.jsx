@@ -8,7 +8,7 @@ function App() {
   console.log(cluedoElements);
 
   return (
-    <>
+    <main className="p-2 max-w-[375px] min-w-[344px]">
       <PlayerSection
         tableSection={cluedoElements.players}
         title={"Jugadores"}
@@ -25,7 +25,7 @@ function App() {
         dataObject={cluedoElements.where}
         title={"¿Dónde?"}
       />
-    </>
+    </main>
   );
 }
 

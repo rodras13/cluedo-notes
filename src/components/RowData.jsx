@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function RowData({ tableSection, title }) {
   return (
-    <section className="flex flex-row justify-between gap-2 w-full text-wrap">
+    <section className="flex flex-row justify-between gap-2 text-wrap">
       <h2 className="text-sm">{title}</h2>
       <div className="flex flex-row gap-2">
         {

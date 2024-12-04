@@ -3,7 +3,7 @@ import RowData from "./RowData";
 
 function DataSection({ dataObject, title }) {
   return (
-    <section className="flex flex-col items-baseline gap-2">
+    <section className="flex flex-col gap-2 w-full">
       <h2>{title}</h2>
       {
         dataObject.map((dataRow, index) => {
