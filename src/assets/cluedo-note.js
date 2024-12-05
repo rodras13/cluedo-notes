@@ -1,5 +1,5 @@
-{
-  "players": [
+export const TABLE_DATA = {
+  players: [
     "",
     "",
     "",
@@ -8,22 +8,10 @@
     "",
     ""
   ],
-  "who": [
+  who: [
     {
-      "name": "Prado",
-      "data": [
-        "",
-        "",
-        "💚",
-        "",
-        "",
-        "",
-        ""
-      ]
-    },
-    {
-      "name": "Rubio",
-      "data": [
+      name: "Prado",
+      data: [
         "",
         "",
         "",
@@ -34,8 +22,8 @@
       ]
     },
     {
-      "name": "Orquídea",
-      "data": [
+      name: "Rubio",
+      data: [
         "",
         "",
         "",
@@ -46,8 +34,8 @@
       ]
     },
     {
-      "name": "Celeste",
-      "data": [
+      name: "Orquídea",
+      data: [
         "",
         "",
         "",
@@ -58,8 +46,8 @@
       ]
     },
     {
-      "name": "Mora",
-      "data": [
+      name: "Celeste",
+      data: [
         "",
         "",
         "",
@@ -70,8 +58,20 @@
       ]
     },
     {
-      "name": "Amapola",
-      "data": [
+      name: "Mora",
+      data: [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      name: "Amapola",
+      data: [
         "",
         "",
         "",
@@ -82,10 +82,10 @@
       ]
     }
   ],
-  "what": [
+  what: [
     {
-      "name": "Candelabro",
-      "data": [
+      name: "Candelabro",
+      data: [
         "",
         "",
         "",
@@ -96,8 +96,8 @@
       ]
     },
     {
-      "name": "Puñal",
-      "data": [
+      name: "Puñal",
+      data: [
         "",
         "",
         "",
@@ -108,8 +108,8 @@
       ]
     },
     {
-      "name": "Tubería de Plomo",
-      "data": [
+      name: "Tubería de Plomo",
+      data: [
         "",
         "",
         "",
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "name": "Pistola",
-      "data": [
+      name: "Pistola",
+      data: [
         "",
         "",
         "",
@@ -132,8 +132,8 @@
       ]
     },
     {
-      "name": "Cuerda",
-      "data": [
+      name: "Cuerda",
+      data: [
         "",
         "",
         "",
@@ -144,8 +144,8 @@
       ]
     },
     {
-      "name": "Herramienta",
-      "data": [
+      name: "Herramienta",
+      data: [
         "",
         "",
         "",
@@ -156,10 +156,10 @@
       ]
     }
   ],
-  "where": [
+  where: [
     {
-      "name": "Sala de baile",
-      "data": [
+      name: "Sala de baile",
+      data: [
         "",
         "",
         "",
@@ -170,8 +170,8 @@
       ]
     },
     {
-      "name": "Sala de billar",
-      "data": [
+      name: "Sala de billar",
+      data: [
         "",
         "",
         "",
@@ -182,8 +182,8 @@
       ]
     },
     {
-      "name": "Invernadero",
-      "data": [
+      name: "Invernadero",
+      data: [
         "",
         "",
         "",
@@ -194,8 +194,8 @@
       ]
     },
     {
-      "name": "Comedor",
-      "data": [
+      name: "Comedor",
+      data: [
         "",
         "",
         "",
@@ -206,8 +206,8 @@
       ]
     },
     {
-      "name": "Vestíbulo",
-      "data": [
+      name: "Vestíbulo",
+      data: [
         "",
         "",
         "",
@@ -218,8 +218,8 @@
       ]
     },
     {
-      "name": "Cocina",
-      "data": [
+      name: "Cocina",
+      data: [
         "",
         "",
         "",
@@ -230,8 +230,8 @@
       ]
     },
     {
-      "name": "Biblioteca",
-      "data": [
+      name: "Biblioteca",
+      data: [
         "",
         "",
         "",
@@ -242,8 +242,8 @@
       ]
     },
     {
-      "name": "Salón",
-      "data": [
+      name: "Salón",
+      data: [
         "",
         "",
         "",
@@ -254,8 +254,8 @@
       ]
     },
     {
-      "name": "Estudio",
-      "data": [
+      name: "Estudio",
+      data: [
         "",
         "",
         "",
@@ -266,4 +266,4 @@
       ]
     }
   ]
-}
+};

@@ -1,10 +1,10 @@
-import charData from "./assets/cluedo-note.json";
+import { TABLE_DATA } from "./assets/cluedo-note";
 import DataSection from "./components/DataSection";
 import PlayerSection from "./components/PlayerSection";
 
 function App() {
 
-  const cluedoElements = charData;
+  const cluedoElements = TABLE_DATA;
   console.log(cluedoElements);
 
   return (
