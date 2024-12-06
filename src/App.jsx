@@ -5,7 +5,6 @@ import PlayerSection from "./components/PlayerSection";
 function App() {
 
   const cluedoElements = TABLE_DATA;
-  console.log(cluedoElements);
 
   return (
     <main className="p-2 max-w-[375px] min-w-[344px]">
