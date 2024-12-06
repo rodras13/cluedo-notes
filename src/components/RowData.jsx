@@ -1,21 +1,31 @@
 import PropTypes from "prop-types";
 import { SYMBOLS } from "../assets/constants";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import Box from "./Box";
 
 function RowData({ tableSection, title }) {
-  // Guardamos el valor que corresponda al click 
-  let count = useRef(0);
-  const [emoji, setEmoji] = useState(SYMBOLS[count.current]);
-
   // Es muy importante guardar la prop en un estado para no mutarla
   const [arraySymbol, setArraySymbol] = useState(tableSection);
+
+  // Creamos una función que vaya cambiando los emojis
+  const switchEmoji = (emoji) => {
+    // Guardamos el emoji en cuestión y su correspondencia con la constante
+    const emojiIndex = SYMBOLS.indexOf(emoji);
+    console.log(SYMBOLS[1]);
+
+    // Si es el último, pasa al primero
+    if (emojiIndex === (SYMBOLS.length - 1)) {
+      return SYMBOLS[0];
+    }
+    console.log(SYMBOLS[emojiIndex + 1]);
+    return SYMBOLS[emojiIndex + 1];
+  };
 
   // Función que asigna distintos valores a los div
   const updateSymbol = (index) => {
     // Hay que guardar el array en otro para actualizarlo salvando la asincronía del useState
     const newArraySymbol = [...arraySymbol];
-    newArraySymbol[index] = "🐶";
+    newArraySymbol[index] = switchEmoji(newArraySymbol[index]);
     setArraySymbol(newArraySymbol);
   };
 
